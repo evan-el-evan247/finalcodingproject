@@ -1,0 +1,55 @@
+<!--
+.Create a CRD application (CRUD without update) using json-server or 
+another API
+.Use fetch and async/await to interact with the API
+.Use a form to create/post new entities
+.Build a way for users to delete entities
+.Include a way to get entities from the API and display them
+.Use Bootstrap and/or CSS to style your project
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Server Test</title>
+    <style src="./final project.css"></style>
+
+
+</head>
+<body>
+    <!--these are all of my header buttons-->
+    
+    <button id="fetch-movies" class="fetch-button">Fetch Movies</button>
+    <button id="delete-movie" class="delete-button">Delete Test Movie</button>
+    <button type="update" class="update-button">Update Movie</button>
+
+    <div id="movies-container"></div>
+
+    <!--this is the form to create and post new movies -->
+
+    <form>
+        <div class="mb-3">
+          <label for="inputMovieTitle1" class="form-label">Movie Title</label>
+          <input type="movieTitle" class="form-control" id="inputMovieTitle1">
+          
+        </div>
+        <div class="mb-3">
+          <label for="inputStar1" class="form-label">Starring</label>
+          
+          <input type="title" class="form-control" id="title1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-showTimes" for="check1">Check Ticket Availability</label>
+        </div>
+        <!--this is the button for my form-->
+        <button type="search" class="search-button">Search</button>
+      </form>
+
+    <!--this is my JavaScript file-->
+    <script src="./test.js"></script>
+</body>
+</html>
